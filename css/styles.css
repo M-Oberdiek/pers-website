@@ -22,6 +22,5 @@ a {
 
 a:hover {
   color: blue;
-  background-color: gray;
-  height: 50px;
+  background-color: rgba(187, 182, 182, 0.803);
 }
