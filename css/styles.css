@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  background-color: blanchedalmond;
+}
+nav {
+  display: flex-inline;
+  background-color: lightgrey;
+  color: black;
+  height: 50px;
+  padding: 15px;
+}
+a {
+  color: black;
+  font-style: normal;
+}
+
+a:hover {
+  color: blue;
+  background-color: gray;
+  height: 50px;
+}
