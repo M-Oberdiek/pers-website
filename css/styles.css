@@ -7,6 +7,11 @@ body {
   background-color: black;
   margin: 0;
 }
+header{
+background-color: black;
+
+}
+
 .name {
   background: linear-gradient(-45deg, #7d7c7b, #d8d6d7, #23a6d5, #23d5ab);
   text-align: right;
@@ -16,10 +21,11 @@ body {
   padding: 10px 30px;
   margin: 10px 10px 10px 10px;
   border-radius: 30px 30px 30px 0px;
+  z-index: 1;
 }
 nav {
   display: flex;
-  position:absolute;
+  position:fixed;
   background: linear-gradient(-45deg, #7d7c7b, #d8d6d7, #23a6d5, #23d5ab);
   top: 80px;
   left: 10px;
@@ -27,7 +33,7 @@ nav {
 
   background-color: lightgrey;
   color: black;
-  height: 90%;
+  height: 100em;
   width: 130px;
   padding: 2px;
   border-radius: 0px 10px 10px 0px;
@@ -36,13 +42,15 @@ nav {
 a {
   color: black;
   font-style: normal;
-  margin: 15px;
+  margin: 10px 0px 20px 10px;
+  padding-top: 20px;
+  text-decoration: none;
 }
 
 a:hover {
   color:#23a6d5;
-  font-weight: bold;
-  background-color: rgba(187, 182, 182, 0.803);
+  font-weight: bolder;
+  
 }
 
 main{
@@ -50,7 +58,7 @@ main{
   position:relative;
   top: 80px;
   left: 150px;
-  width: 85%auto;
+  width: 85%;
   border: 1px solid 
   border-radius: 10px;
   color: white;
@@ -62,4 +70,28 @@ section{
   border-radius: 10px;
   padding:5px 10px;
   margin-bottom:10px
+}
+
+.aboutme{
+  display: flex;
+  gap: 10px;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+  
+}
+img{
+ box-shadow: 20xp 10px 4px white;
+}
+
+table{
+  
+  border-spacing: 20px;
+}
+
+
+
+footer{
+  position:relative;
+
+
 }
