@@ -4,13 +4,14 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: antiquewhite;
+  background-color: black;
 }
-header {
+#name {
   background-color: blanchedalmond;
 }
 nav {
-  display: flex-inline;
+  display: flex;
+  position:
   background-color: lightgrey;
   color: black;
   height: 50px;
