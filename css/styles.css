@@ -7,8 +7,8 @@ body {
   background-color: black;
   margin: 0 auto;
 }
-header{
-background-color: black;
+header {
+  background-color: black;
 }
 
 .name {
@@ -21,12 +21,11 @@ background-color: black;
   margin: 0px 10px 10px 0px;
   border-radius: 30px 0px 30px 0px;
   border: 10px solid black;
-
   z-index: 1;
 }
 nav {
   display: flex;
-  position:fixed;
+  position: fixed;
   background: linear-gradient(-45deg, #7d7c7b, #d8d6d7, #23a6d5, #23d5ab);
   top: 80px;
   left: 10px;
@@ -46,64 +45,56 @@ a {
   padding-top: 20px;
   text-decoration: none;
 }
-.linkw{
+.linkw {
   color: white;
 }
 
 a:hover {
-  color:#23a6d5;
+  color: #23a6d5;
   font-weight: bolder;
 }
 
-
-main{
-  
-  position:relative;
+main {
+  position: relative;
   top: 80px;
   left: 150px;
   width: 85%;
-  border: 1px solid 
   border-radius: 10px;
   color: white;
-  flex-wrap:wrap;
-
+  flex-wrap: wrap;
 }
-section{
+section {
   background-color: rgb(121, 121, 121);
   border-radius: 10px;
-  padding:5px 10px;
-  margin-bottom:10px
+  padding: 5px 10px;
+  margin-bottom: 10px;
 }
 
-.aboutme{
+.aboutme {
   display: flex;
   gap: 10px;
   word-wrap: break-word;
   flex-wrap: wrap;
-  
 }
 
-.profPic{
+.profPic {
   border-radius: 10px;
-  width:200px;
-  height:200px;
+  width: 200px;
+  height: 200px;
 }
 
-#liContact{
+#liContact {
   align-self: flex-start;
 }
 
-.contact{
+.contact {
   display: flex;
   flex-wrap: wrap;
-  
-  
 }
 li {
   float: left;
 }
 li a {
-  
   color: white;
   text-align: center;
   padding: 0px;
@@ -114,27 +105,25 @@ ul {
   margin: 0;
   padding: 10px;
   overflow: hidden;
- 
 }
 
-tr{
+tr {
   border-spacing: 20px;
 }
 
-.projects{
+.projects {
   display: flex;
   gap: 10px;
   word-wrap: break-word;
   flex-wrap: wrap;
-
 }
 
-.projectPic{
-  width="300px";
-  height="300px";
+.projectPic {
+  width: 300px;
+  height: 300px;
 }
 
-footer{
-  position:relative;
-  padding:10px;
+footer {
+  position: relative;
+  padding: 10px;
 }
