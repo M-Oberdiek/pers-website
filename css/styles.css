@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  margin: 0 auto;
+}
+header{
+background-color: black;
+}
+
+.name {
+  background: linear-gradient(-45deg, #7d7c7b, #d8d6d7, #23a6d5, #23d5ab);
+  text-align: right;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  padding: 10px 30px;
+  margin: 0px 10px 10px 0px;
+  border-radius: 30px 0px 30px 0px;
+  border: 10px solid black;
+
+  z-index: 1;
+}
+nav {
+  display: flex;
+  position:fixed;
+  background: linear-gradient(-45deg, #7d7c7b, #d8d6d7, #23a6d5, #23d5ab);
+  top: 80px;
+  left: 10px;
+  flex-direction: column;
+  background-color: lightgrey;
+  color: black;
+  height: 100em;
+  width: 130px;
+  padding: 2px;
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid black;
+}
+a {
+  color: black;
+  font-style: normal;
+  margin: 10px 0px 20px 10px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+.linkw{
+  color: white;
+}
+
+a:hover {
+  color:#23a6d5;
+  font-weight: bolder;
+}
+
+
+main{
+  
+  position:relative;
+  top: 80px;
+  left: 150px;
+  width: 85%;
+  border: 1px solid 
+  border-radius: 10px;
+  color: white;
+  flex-wrap:wrap;
+
+}
+section{
+  background-color: rgb(121, 121, 121);
+  border-radius: 10px;
+  padding:5px 10px;
+  margin-bottom:10px
+}
+
+.aboutme{
+  display: flex;
+  gap: 10px;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+  
+}
+
+
+#liContact{
+  align-self: flex-start;
+}
+
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+li {
+  float: left;
+}
+li a {
+  
+  color: white;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+ 
+}
+
+tr{
+  border-spacing: 20px;
+}
+
+.projects{
+  display: flex;
+  gap: 10px;
+  word-wrap: break-word;
+  flex-wrap: wrap;
+
+}
+
+.projectPic{
+  width="300px";
+  height="300px";
+}
+
+footer{
+  position:relative;
+  padding:10px;
+}
